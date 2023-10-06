@@ -1,0 +1,177 @@
+#nombre {color: #D9ACA2;
+    background-color: #594743;
+    text-align: center;
+    font-size: 56pt;
+    font-family: 'Sans Pro';
+    letter-spacing: 20pt;
+    margin-top: 0px;}
+
+ #slogan {text-align: center;
+    font-family: 'Sans Pro';
+    background-color: #997A73;
+    color: #D9ACA2;
+    padding: 20px}
+    
+#menu {
+    margin:auto;
+    width: 40;
+    font-family: 'Sans Pro';
+    font-weight: bold;}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+    }
+
+#menu ul li{
+    display: inline;
+    justify-content: center;
+    align-items: center;}
+
+#menu ul li a{
+    color: #D998B0;
+    padding: 20px 30px;
+    text-decoration: none;}
+    
+#menu ul li a:hover{
+    background-color: #997A73;}
+
+#Contactar {
+    font-family: 'Sans Pro';
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Colores estado link correo*/
+a:link{
+  color:#E6A1BA;
+  text-decoration: none;
+}
+a:visited{
+  color:#594743; 
+  text-decoration: none;
+}
+/*cuando nos ponemos encima del link*/
+a:hover{
+  color:#594743;
+  text-decoration: underline;
+}
+
+
+#Contactar iframe {
+    width: 400px; height: 300px;
+}
+
+form {
+
+    margin: 0 auto;
+    width: 400px;
+   
+    padding: 1em;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-family: 'Sans Pro';
+  }
+  
+  input,
+  textarea {
+
+    font: 1em Trebuchet MS;
+  
+   
+    width: 300px;
+    box-sizing: border-box;
+  
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #594743;
+  }
+  
+  textarea {
+    vertical-align: top;
+  
+    height: 5em;
+  }
+  
+  .button {
+  
+    padding-left: 90px; 
+  }
+  
+  button {
+    
+    margin-left: .5em;
+  }
+
+
+
+/*PIE DE PAGINA*/
+#pie {text-align: center;
+  font-family: 'Sans Pro';
+  background-color: #997A73;
+  padding: 40px;
+  color: #D9ACA2;
+  margin-bottom: 0px;
+  margin-top: 20px;}
+
+#enlace2 {
+  height: 40px;
+  width: 40px;
+
+}
+
+#duda {
+    text-align: center;
+    font-weight: lighter;
+}
+
+#claro {
+    color: #D9ACA2;
+    font-family: 'Sans Pro';
+    text-align: center;
+}
+
+#solicitud {
+    font-family: 'Sans Pro';
+    text-align: center;
+}
+
+#solicitud2 {
+  font-family: 'Sans Pro';
+    text-align: center;
+}
+    
+/*Colores estado link Trabaja*/
+a:link{
+  text-decoration: underline;
+}
+a:visited{
+  color:#594743; 
+  text-decoration: underline;
+}
+/*cuando nos ponemos encima del link*/
+a:hover{
+  color:#594743;
+  text-decoration: underline;
+}
+

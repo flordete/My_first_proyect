@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/trabaja.css">
+</head>
+<body>
+        <!--Nombre de la empresa-->
+        <pre><h1 id="nombre">BigoSoft</h1></pre>
+        
+        <!--Slogan-->
+        <div>
+            <pre><h2 id="slogan">EMPRESA DE DESARROLLO DE SOFTWARE Y APLICACIONES WEB A MEDIDA</h2></pre>
+            </div>
+        
+        
+        <!--Menu de pestañas-->
+        <div id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="QUIENESSOMOS.html">¿Quienes somos?</a></li>
+            <li><a href="PRODUCTOS.html">Productos</a></li>
+            <li><a href="SERVICIOS.html">Servicios</a></li>
+            <li><a href="CONTACTO.html">Contacto</a></li>
+        </ul>
+        <br>
+        </div>
+    <form id="formulario" action="HOME.html" method="GET">
+
+        <fieldset id="datospersonales"> 
+
+            <legend>Datos personales</legend>
+            <p>Nombre: <input type="text" name="nombre"></p>
+            <p>Apellidos: <input type="text" name="apellidos"></p>
+            <p>DNI: <input type="text" name="dni"></p>
+            <p>Sexo: <input type="radio" name="P1"> Masculino
+                    <input type="radio" name="P1"> Femenino  </p>
+            <p>Fecha nacimiento: <input type="text" name="fecha nacimiento"></p>
+            <p>Ciudad: <input type="text" name="ciudad"></p>
+            <p>Nacionalidad: <input type="text" name="nacionalidad"></p>
+            <p>Código postal: <input type="text" name="codigo postal"></p>
+            <p>Correo electrónico: <input type="text" name="correo"></p>
+            <p>Teléfono/Móvil: <input type="text" name="movil"></p>
+
+
+        </fieldset>
+        <br>
+        <br>
+        <fieldset> 
+
+            <legend>Formación</legend>
+            <p>Nombre: <input type="text" name="nombre"></p>
+            <p>Apellidos: <input type="text" name="apellidos"></p>
+            <p> <label for="Titulos">Titulación:</label>
+                <select id="Titualacion:" name="Titualacion">
+                <option value="volvo">Universitaria</option>
+                <option value="saab">Formacion Profesional</option>
+                <option value="fiat">Graduado Escolar</option>
+                <option value="audi">Otra</option>
+              </select></p>
+
+
+        </fieldset>
+    <br>
+        <fieldset> 
+
+            <legend>Nivel de Ingles</legend>
+            <p>Escrito: <input type="radio" name="P1"> Excelente
+                        <input type="radio" name="P1"> Bien
+                        <input type="radio" name="P1"> Regular 
+                        <input type="radio" name="P1"> Nada</p>
+
+            <p>Hablado: <input type="radio" name="P1"> Excelente
+                        <input type="radio" name="P1"> Bien
+                        <input type="radio" name="P1"> Regular 
+                        <input type="radio" name="P1"> Nada</p>
+
+            <p>Leído: <input type="radio" name="P1"> Excelente
+                        <input type="radio" name="P1"> Bien
+                        <input type="radio" name="P1"> Regular 
+                        <input type="radio" name="P1"> Nada</p>
+
+        </fieldset>
+        <br>
+        <input id="boton" type="submit" value="Enviar respuesta">
+
+
+       
+
+
+    </form>
+
+<!--Pie de pagina-->
+<footer >
+    <pre id="pie">También puedes visitarnos en: 
+   
+        <a href="https://www.instagram.com/los.apuntesdemajo/"><img id="enlace2" src="IMAGENES/instagram.png"></a>
+        <a href="https://twitter.com/bigosoft"><img id="enlace2" src="IMAGENES/twitter.png"></a>
+        <a href="https://www.facebook.com/big.soft.7"><img id="enlace2" src="IMAGENES/facebook.png"</a>
+
+</footer>
+
+</body>
+</html>

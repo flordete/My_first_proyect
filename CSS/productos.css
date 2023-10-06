@@ -1,0 +1,109 @@
+#nombre {color: #D9ACA2;
+    background-color: #594743;
+    text-align: center;
+    font-size: 56pt;
+    font-family: 'Sans Pro';
+    letter-spacing: 20pt;
+    margin-top: 0px;}
+
+#slogan {text-align: center;
+    font-family: 'Sans Pro';
+    background-color: #997A73;
+    color: #D9ACA2;
+    padding: 20px}
+    
+#menu {
+    margin:auto;
+    width: 40;
+    font-family: 'Sans Pro';
+    font-weight: bold;}
+    
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+    }
+
+#menu ul li{
+    display: inline;
+    justify-content: center;
+    align-items: center;}
+
+#menu ul li a{
+    color: #D998B0;
+    padding: 20px 30px;
+    text-decoration: none;}
+
+#menu ul li a:hover{
+    background-color: #997A73;}
+
+
+/*PIE DE PAGINA*/
+#pie {text-align: center;
+font-family: 'Sans Pro';
+background-color: #997A73;
+padding: 40px;
+color: #D9ACA2;
+margin-bottom: 0px;
+margin-top: 40px;}
+
+#enlace2 {
+    height: 40px;
+    width: 40px;
+}
+
+#descripcion {
+   font-family: 'Sans Pro';
+   padding-inline-start: auto;
+   padding-inline-end: auto;
+   page-break-inside: auto;
+   text-align: center;
+   margin-top: auto;
+   ;
+
+}
+#tabla {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, td, th{
+    border: 1px solid #594743;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+caption{
+    color: #594743;
+    font-family: 'Sans Pro';
+    font: size 70px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+th{
+    color:#D9ACA2;
+    background-color: #997A73;
+}
+
+/*Colores estado link correo*/
+a:link{
+    color:#E6A1BA;
+    text-decoration: none;
+  }
+  a:visited{
+    color:#594743; 
+    text-decoration: none;}
+
+/*cuando nos ponemos encima del link*/
+  a:hover{
+    color:#594743;
+    text-decoration: underline;
+}
+
+
+

@@ -1,0 +1,98 @@
+#nombre {color: #D9ACA2;
+    background-color: #594743;
+    text-align: center;
+    font-size: 56pt;
+    font-family: 'Sans Pro';
+    letter-spacing: 20pt;
+    margin-top: 0px;}
+
+#slogan {text-align: center;
+    font-family: 'Sans Pro';
+    background-color: #997A73;
+    color: #D9ACA2;
+    padding: 20px}
+    
+#menu {
+    margin:auto;
+    width: 40;
+    font-family: 'Sans Pro';
+    font-weight: bold;}
+        
+    
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+    }
+    
+#menu ul li{
+    display: inline;
+    justify-content: center;
+    align-items: center;}
+    
+#menu ul li a{
+    color: #D998B0;
+    padding: 20px 30px;
+    text-decoration: none;}
+    
+#menu ul li a:hover{
+    background-color: #997A73;}
+    
+
+
+/*EL EQUIPO*/
+#nosotros {
+    font-family: 'Sans Pro';
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#trabajadora {
+    height: 250px;
+    width: 400px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #D9ACA2;}
+
+#organización {
+    height: 250px;
+    width: 400px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #D9ACA2;}
+
+
+#Maria {
+    font-family: 'Sans Pro';
+    text-align: center;}
+
+#Video {
+    border-style: solid;
+    border-width: 3px;
+    border-color:#D9ACA2 ;}
+
+#empresas {
+    font-family: 'Sans Pro';
+    text-align: center;}
+
+
+#enlace {
+    width: 150px; height: 70px;
+}
+
+/*PIE DE PAGINA*/
+#pie {text-align: center;
+font-family: 'Sans Pro';
+background-color: #997A73;
+padding: 40px;
+color: #D9ACA2;
+margin-bottom: 0px;
+margin-top: 20px;}
+
+#enlace2 {
+    height: 40px;
+    width: 40px;
+
+}

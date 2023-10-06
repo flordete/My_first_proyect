@@ -1,0 +1,70 @@
+#nombre {color: #D9ACA2;
+    background-color: #594743;
+    text-align: center;
+    font-size: 56pt;
+    font-family: 'Sans Pro';
+    letter-spacing: 20pt;
+    margin-top: 0px;}
+
+#slogan {text-align: center;
+font-family: 'Sans Pro';
+background-color: #997A73;
+color: #D9ACA2;
+padding: 20px}
+
+#menu {
+    margin:auto;
+    width: 40;
+    font-family: 'Sans Pro';
+    font-weight: bold;}
+    
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+    }
+
+#menu ul li{
+    display: inline;
+    justify-content: center;
+    align-items: center;}
+
+#menu ul li a{
+    color: #D998B0;
+    padding: 20px 30px;
+    text-decoration: none;}
+
+#menu ul li a:hover{
+    background-color: #997A73;}
+
+#descripcion {
+   font-family: 'Sans Pro';
+   padding-inline-start: auto;
+   padding-inline-end: auto;
+   page-break-inside: auto;
+   text-align: center;
+   margin-top: auto;
+}
+
+#formulario
+{color: #D9ACA2;
+    background-color: #997A73;
+    font-size: 15pt;
+    font-family: 'Sans Pro';
+    margin-top: 0px;}
+
+/*PIE DE PAGINA*/
+#pie {text-align: center;
+    font-family: 'Sans Pro';
+    background-color: #997A73;
+    padding: 40px;
+    color: #D9ACA2;
+    margin-bottom: 0px;
+    margin-top: 40px;}
+
+#enlace2 {
+    height: 40px;
+    width: 40px;
+}

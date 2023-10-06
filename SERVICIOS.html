@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigoSoft</title>
+    <link rel="stylesheet" href="CSS/servicios.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+
+<!--Nombre de la empresa-->
+<pre><h1 id="nombre">BigoSoft</h1></pre>
+
+<!--Slogan-->
+<div>
+    <pre><h2 id="slogan">EMPRESA DE DESARROLLO DE SOFTWARE Y APLICACIONES WEB A MEDIDA</h2></pre>
+    </div>
+
+
+<!--Menu de pestañas-->
+<div id="menu">
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="QUIENESSOMOS.html">¿Quienes somos?</a></li>
+    <li><a href="PRODUCTOS.html">Productos</a></li>
+    <li><a href="SERVICIOS.html">Servicios</a></li>
+    <li><a href="CONTACTO.html">Contacto</a></li>
+</ul>
+</div>
+
+<!--Servicios-->
+<div>
+    <p><h2 id="servicio"> ¿Qué tipo de servicios ofrecemos en Bigsoft?</p>
+</div>
+
+<table id="tabla">
+    <tr>
+        <th>Pro</th>
+        <th>Premium</th>
+    </tr>
+
+    <td><div id=pro><p>30€ /mes</p>
+        <p>20 usuarios incluidos</p>
+        <p>10 GB de almacenamiento</p>
+        <p>Soporte prioritario por correo electrónico</p>
+        <p>Acceso al centro de ayuda</p>
+        <button type="button" onclick="mostrarr()">Contratar</button>
+        
+        <script type="text/javascript">
+            function mostrarr(){
+                swal("Has elegido el programa Pro")
+            }
+        </script>
+        </div></td>
+
+    <td><div id=pro><p>50€ /mes</p>
+        <p>50 usuarios incluidos</p>
+        <p>30 GB de almacenamiento</p>
+        <p>Soporte telefónico y por correo electrónico</p>
+        <p>Acceso al centro de ayuda</p>
+        <button type="button" onclick="mostrar()">Contratar</button>
+
+        <script type="text/javascript">
+            function mostrar(){
+                swal("Has elegido el programa Premium")
+            }
+        </script>
+        </div></td>
+
+</table>
+
+<div>
+    <p><h2 id="servicio"> Comparar planes</p>
+    </div>
+
+<table id="tabla">
+    <tr>
+        <th></th>
+        <th>Pro</th>
+        <th>Premium</th>
+    </tr>
+
+    <tr>
+        <th>Público</th>
+        <td><img id=check src="IMAGENES/check.png"</td>
+        <td><img id=check src="IMAGENES/check.png"</td>
+    </tr>
+
+    <tr>
+        <th>Privado</th>
+        <td><img id=check src="IMAGENES/check.png"</td>
+        <td><img id=check src="IMAGENES/check.png"</td>
+    </tr>
+
+    <tr>
+        <th>Permisos</th>
+        <td><img id=check src="IMAGENES/check.png"</td>
+        <td><img id=check src="IMAGENES/check.png"</td>
+    </tr>
+    <tr>
+        <th>Intercambio</th>
+        <td><img id=check src="IMAGENES/check.png"</td>
+        <td><img id=check src="IMAGENES/check.png"</td>
+    </tr>
+    <tr>
+        <th>Seguridad adicional</th>
+        <td></td>
+        <td><img id=check src="IMAGENES/check.png"</td>
+    </tr>
+
+
+
+</table>
+
+<!--Pie de pagina-->
+<footer >
+    <pre id="pie">También puedes visitarnos en: 
+    
+        <a href="https://www.instagram.com/los.apuntesdemajo/"><img id="enlace2" src="IMAGENES/instagram.png"></a>
+        <a href="https://twitter.com/bigosoft"><img id="enlace2" src="IMAGENES/twitter.png"></a>
+        <a href="https://www.facebook.com/big.soft.7"><img id="enlace2" src="IMAGENES/facebook.png"</a>
+
+</footer>
+
+
+</body>
+</html>
